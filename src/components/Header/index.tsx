@@ -1,9 +1,11 @@
-import logo from '../../assets/images/logo.svg'
-import { HeaderStyle } from './styles'
-import { Branding, LinkRestaurantes, TextCart } from './styles'
-import { open } from '../../store/reducers/cart'
 import { useDispatch, useSelector } from 'react-redux'
+import { open } from '../../store/reducers/cart'
 import { RootReducer } from '../../store'
+
+import logo from '../../assets/images/logo.svg'
+
+import { Branding, LinkRestaurantes, TextCart } from './styles'
+import { HeaderStyle } from './styles'
 
 const Header = () => {
   const dispatch = useDispatch()

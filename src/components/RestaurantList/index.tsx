@@ -1,8 +1,8 @@
+import { useState } from 'react'
 import Product from '../Restaurant'
+import Loader from '../Loader'
 import { Restaurant } from '../../types'
 import { Container, List } from './styles'
-import { useState } from 'react'
-import Loader from '../Loader'
 
 export type Props = {
   restaurants: Restaurant[]

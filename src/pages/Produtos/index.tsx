@@ -1,8 +1,9 @@
 import { useParams } from 'react-router-dom'
+import { useGetRestaurantSelectedQuery } from '../../services/api'
+
 import Header from '../../components/Header'
 import FoodList from '../../components/ProductList'
 import Footer from '../../components/Footer'
-import { useGetRestaurantSelectedQuery } from '../../services/api'
 import Loader from '../../components/Loader'
 import Banner from '../../components/Banner'
 import Cart from '../../components/Cart'

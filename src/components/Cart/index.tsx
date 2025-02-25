@@ -1,9 +1,11 @@
 import { useDispatch, useSelector } from 'react-redux'
-import * as S from './styles'
+
 import { RootReducer } from '../../store'
 import { close, removeItem, startCheckout } from '../../store/reducers/cart'
 import { priceFormat } from '../ProductList'
 import Checkout from '../Checkout'
+
+import * as S from './styles'
 
 const Cart = () => {
   const { isOpen, pedido, isAddress, isCart } = useSelector(

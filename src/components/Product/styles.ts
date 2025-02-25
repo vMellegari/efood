@@ -1,6 +1,6 @@
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { breakpoints, cores } from '../../styles'
-import { Link } from 'react-router-dom'
 
 export const Card = styled.div`
   background-color: ${cores.vermelho};
@@ -13,7 +13,6 @@ export const Card = styled.div`
 `
 
 export const Photo = styled.img`
-  // max-width: 304px;
   max-height: 167px;
   height: 100%;
   width: 100%;

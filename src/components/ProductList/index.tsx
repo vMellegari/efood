@@ -1,11 +1,13 @@
 import { useState } from 'react'
-import Food from '../Product'
-import { AddCartButton } from './styles'
-import close from '../../assets/images/close.svg'
 import { useDispatch } from 'react-redux'
+
+import Food from '../Product'
 import { addItem, open } from '../../store/reducers/cart'
-import * as S from './styles'
 import { Pedido, Restaurant } from '../../types'
+
+import close from '../../assets/images/close.svg'
+import { AddCartButton } from './styles'
+import * as S from './styles'
 
 export type Props = {
   restaurant: Restaurant

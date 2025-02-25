@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import fundo from '../../assets/images/fundo.svg'
+
 import { breakpoints, cores } from '../../styles'
 
 export const HeaderStyle = styled.header`
