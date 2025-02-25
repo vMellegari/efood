@@ -5,14 +5,13 @@ export const cores = {
   background2: '#FFEBD9',
   branco: '#FFFFFF',
   vermelho: '#E66767',
-  rosa: '#FFEBD9',
   amarelo: '#FFB930'
 }
 
 export const breakpoints = {
-  mobile: '320px',
-  tablet: '768px',
-  desktop: '1024px'
+  desktop: '1024px',
+  tablet: '821px',
+  mobile: '430px'
 }
 
 export const GlobalCss = createGlobalStyle`
@@ -26,5 +25,20 @@ export const GlobalCss = createGlobalStyle`
   body{
     background-color: ${cores.background};
     color: ${cores.vermelho};
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
   }
 `

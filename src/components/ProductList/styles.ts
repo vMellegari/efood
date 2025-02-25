@@ -112,7 +112,7 @@ export const CloseIcon = styled.img`
   cursor: pointer;
 `
 export const AddCartButton = styled.button`
-  background-color: ${cores.rosa};
+  background-color: ${cores.background2};
   color: ${cores.vermelho};
   border: none;
   padding: 4px 7px;

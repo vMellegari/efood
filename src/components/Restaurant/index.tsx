@@ -34,7 +34,7 @@ const Restaurant = ({
         <Title>{RestaurantTitle}</Title>
         <Rate>
           <h3>{RestaurantRate}</h3>
-          <img src={Star} alt="Estrela amarela" />
+          <img src={Star} alt="Estrela" />
         </Rate>
       </div>
       <Description>{reduceDescription(RestaurantDetails)}</Description>

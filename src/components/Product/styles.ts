@@ -36,7 +36,7 @@ export const Description = styled.p`
 `
 
 export const AddCartButton = styled(Link)`
-  background-color: ${cores.rosa};
+  background-color: ${cores.background2};
   color: ${cores.vermelho};
   border: none;
   padding: 4px 7px;

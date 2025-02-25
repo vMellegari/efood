@@ -2,9 +2,10 @@ import styled from 'styled-components'
 import { cores } from '../../styles'
 
 export const Container = styled.footer`
-  background-color: ${cores.rosa};
+  background-color: ${cores.background2};
   text-align: center;
   height: 298px;
+  margin-top: auto;
 `
 export const Logo = styled.img`
   width: 125px;

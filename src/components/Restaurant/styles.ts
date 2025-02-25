@@ -37,6 +37,7 @@ export const Rate = styled.div`
   img {
     @media (max-width: ${breakpoints.tablet}) {
       width: 100%;
+      max-width: 21px;
     }
   }
   display: flex;
